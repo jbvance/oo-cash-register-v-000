@@ -17,7 +17,6 @@ class CashRegister
     quantity.times do
       @@items.push(item)
     end
-    end
   end
 
   def apply_discount
